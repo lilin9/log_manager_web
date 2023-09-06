@@ -1,0 +1,20 @@
+{
+  "name": "logManager-web",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "axios": "^1.5.0",
+    "echarts": "^5.4.3",
+    "element-plus": "^2.3.12",
+    "vue": "^3.0.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "vite": "^1.0.0-rc.13"
+  }
+}

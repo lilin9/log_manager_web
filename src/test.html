@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<script>
+    const data = [
+        {
+            method: "post",
+            count: 12.0
+        },
+        {
+            method: "get",
+            count: 5.0
+        }
+    ];
+
+    const dataMap = Object.keys(data[0]).map(key => data.map(obj => obj[key]));
+    let names = dataMap[0];
+    let values = dataMap[1].map(value => parseFloat(value));
+
+    console.log(names);
+    console.log(values);
+</script>
+</body>
+
+</html>
